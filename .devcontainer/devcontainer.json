@@ -1,0 +1,15 @@
+{
+  "name": "Android Kotlin Dev",
+  "image": "mcr.microsoft.com/devcontainers/java:17",
+  "remoteUser": "root",
+  "postCreateCommand": "bash .devcontainer/setup.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-gradle",
+        "fwcd.kotlin",
+        "android-dev-ext.vscode-android-tools"
+      ]
+    }
+  }
+}
